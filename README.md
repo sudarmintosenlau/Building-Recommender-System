@@ -26,11 +26,11 @@ Sebagai tambahan, kita dapat menambahkan genre untuk mendapatkan film teratas un
  
  ### Hal-hal yang dikerjakan
 
-Task 1 - Library Import and File Unloading
+**Task 1 - Library Import and File Unloading**
 
 Pekerjaan pertama yang harus dilakukan adalah melakukan import library dan membaca dataset yang akan digunakan dalam project ini
 
-Task 2 - Cleaning table movie
+**Task 2 - Cleaning table movie**
 
 Sebelum mengolah data lebih lanjut untuk membuat sistem rekomendasi, kita harus melakukan cleaning pada data terlebih dahulu.
 
@@ -42,18 +42,18 @@ Sebelum mengolah data lebih lanjut untuk membuat sistem rekomendasi, kita harus 
 * Mengubah Nilai '\\N' 
 * Mengubah nilai genres menjadi list
 
-Task 3 - Cleaning table ratings
+**Task 3 - Cleaning table ratings**
 
 Sama seperti yang sudah kita lakukan sebelumnya pada table movie, sekarang kita akan melakukan cleaning pada table ratings. 
 
-Task 4 - Joining table movie and table ratings
+**Task 4 - Joining table movie and table ratings**
 
 Perlu untuk dilakukan join pada table movie dan rating untuk mendapatkan rating dari tiap film yang ada pada table movie. 
 
 * Inner Join table movie dan table rating
 * Memperkecil ukuran Table
 
-Task 5 - Building Simple Recommender System
+**Task 5 - Building Simple Recommender System**
 
 kembali ke formula IMDB weighted average, kita sudah memiliki value v dan R. Sekarang kita perlu mencari untuk value C dan m
 
